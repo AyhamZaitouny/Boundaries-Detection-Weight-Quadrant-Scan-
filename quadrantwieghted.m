@@ -1,5 +1,7 @@
 function qq=quadrantwieghted(rr)
 
+%This function is to calculate the weighted quadrand scan from a recurrence matrix rr
+
 [dx,dy]=size(rr);
 
 if dx~=dy,
