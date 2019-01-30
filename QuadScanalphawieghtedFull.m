@@ -72,10 +72,10 @@ RM = RM +eye(size(Dist,1));
 
 %%%% Quadrant Scan: Two options: %%%%
 % (1) Density QS 
-% QS=quadrant(RM);   % Density Quadrant Scan: import Function "quadrant"
+ QS=quadrant(RM);   % Density Quadrant Scan: import Function "quadrant"
 
 % (2) Weighted QS
-QS=quadrantwieghted(RM); %Weighted Quadrant Scan: import Function "quadrantwieghted"
+% QS=quadrantwieghted(RM); %Weighted Quadrant Scan: import Function "quadrantwieghted"
 
 %%%% Ploting the quadrant scan %%%%
 figure('Position',[100 100 550 400]);
